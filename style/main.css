@@ -5,7 +5,10 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  
+  a:-webkit-any-link{
+    text-decoration:none !important;
+    text-decoration-line:none !important;
+    }
   .card {
     margin: 10px auto;
     width: 300px;
